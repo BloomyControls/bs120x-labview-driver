@@ -1,0 +1,44 @@
+[Configuration Files/TCP Settings.xml]
+Read Timeout ms = if exceeded, close connection and start listening again, only when Protocol = TCPIP; default 2000
+Port = TCP Listening port, only when Protocol = TCPIP; default 12345
+Loop Time ms = loop rate (loop includes Read and Open; no writes), only when Protocol = TCPIP; default 10
+
+[Configuration Files/General Settings.xml]
+Protocol = CAN (0) or TCPIP (1); default 1
+
+[Configuration Files/UDP Settings.xml]
+IP Address = Destination IP Address or the broadcast address (255.255.255.255); default 255.255.255.255
+Port = for both BS1200 and host; default 54321
+Wait Timeout = timeout for opening a local port and writing; default 0
+Loop Delay RT ms = loop period; default 5
+
+[Configuration Files/UDP Config Broadcast Settings]
+IP Address = Destination IP Address or the broadcast address (255.255.255.255); default 255.255.255.255
+Port = for both BS1200 and host; default 58432
+Write Timeout = timeout for opening a local port and writing; default 0
+Loop Delay RT ms = loop period (RT controlled); default 1000
+
+[Data/BS1200 Configuration.ini] (actually an XML file)
+CAN_Settings.box_ID = the box id; 1-15 is valid; 0 is considered "broadcast" and ALL units will respond; only in CAN mode; otherwise it's 1; default 1
+CAN_Settings.write_period_ms = ; default 5000
+
+[Configuration Files/CAN Settings.xml]
+// not used at all
+
+
+
+
+The really useful stuff
+General Settings:
+Mode (CAN / Ethernet)                = Configuration Files/General Settings.xml >> Protocol
+
+Ethernet Settings:
+IP Address                           = System Configuration API
+TCP (Command) Port                   = Configuration Files/TCP Settings.xml >> Port
+TCP (Command) Read Interval (ms)     = Configuration Files/TCP Settings.xml >> Loop Delay RT ms
+UDP (Reporting) Port                 = Configuration Files/UDP Settings.xml >> Port
+UDP (Reporting) Write Interval (ms)  = Configuration Files/UDP Settings.xml >> Loop Delay RT ms
+
+CAN Settings:
+Box ID                               = Data/BS1200 Configuration >> CAN_Settings.box_ID
+Write Interval (ms)                  = Data/BS1200 Configuration >> CAN_Settings.write_period_ms **it's actually microseconds
