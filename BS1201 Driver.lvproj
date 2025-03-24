@@ -22,6 +22,7 @@
 			<Item Name="Bloomy Battery Simulator 1200 VI Tree.vi" Type="VI" URL="../src/Bloomy Battery Simulator 1200 VI Tree.vi"/>
 		</Item>
 		<Item Name="BS120x Driver.lvlib" Type="Library" URL="../src/BS120x Driver.lvlib"/>
+		<Item Name="BloomyStamp.ico" Type="Document" URL="../src/BloomyStamp.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_XNET Convert List From Array To Comma.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Convert List From Array To Comma.vi"/>
@@ -162,22 +163,22 @@
 				<Property Name="Bld_buildSpecName" Type="Str">PPL</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../outputs/PPL</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../bs120x-labview-driver outputs/PPL</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5912EE7D-2667-4786-8EDC-3C1415C9B95B}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">BS120x Driver.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../outputs/PPL/BS120x Driver.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../bs120x-labview-driver outputs/PPL/BS120x Driver.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../outputs/PPL</Property>
+				<Property Name="Destination[1].path" Type="Path">../bs120x-labview-driver outputs/PPL</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DA29F433-FFED-48B5-9F02-3CB934089FC3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1C279A72-12CE-4444-A9EF-01678D876FDC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/BS120x Driver.lvlib</Property>
@@ -218,20 +219,21 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../outputs/Apps/Discovery</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../bs120x-labview-driver outputs/Apps/Discovery</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8C6CCC84-B5E6-4353-A78F-E258DE894D94}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Cell Simulator Discovery.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../outputs/Apps/Discovery/Cell Simulator Discovery.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">BS120x Discovery.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../bs120x-labview-driver outputs/Apps/Discovery/BS120x Discovery.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../outputs/Apps/Discovery/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../bs120x-labview-driver outputs/Apps/Discovery/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EC5BEA49-3AFF-4919-911E-E52C8303A56E}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/BloomyStamp.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1C279A72-12CE-4444-A9EF-01678D876FDC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples/Bloomy BS120x Discovery Example.vi</Property>
@@ -244,7 +246,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 Bloomy Controls</Property>
 				<Property Name="TgtF_productName" Type="Str">Discovery</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{A4C0C35B-66A6-40BA-AC67-5BEC0677FEFD}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Cell Simulator Discovery.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">BS120x Discovery.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
