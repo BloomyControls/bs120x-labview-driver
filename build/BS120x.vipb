@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-03-24 13:19:49" Modified_Date="2025-03-24 14:39:23" Creator="Bloomy" Comments="" ID="a5f995ee74e1314a0bf01cbb2a2246b7">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-03-24 13:19:49" Modified_Date="2025-04-10 19:29:20" Creator="Bloomy" Comments="" ID="6fbb752462fcc58225d731790e9c8804">
   <Library_General_Settings>
     <Package_File_Name>Bloomy_lib_BS120x</Package_File_Name>
-    <Library_Version>1.0.0.8</Library_Version>
+    <Library_Version>1.0.1.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\..\bs120x-labview-driver outputs\Bloomy BS120x VIP</Library_Output_Folder>
@@ -361,7 +361,7 @@
         <Path>..\src\Public\New BS120x Device\Discover.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>732C280934F9CAA9988054FCF7DDA338</GUID>
+      <GUID>48AFB83AF4B9DA65A411E86D02C46F92</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -382,7 +382,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path/>
       </Synchronization_Info>
-      <GUID>BA752D382149381AC31DFC533F59EE12</GUID>
+      <GUID>50381BC0D82228B4AC42CFEB88516D3A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -473,7 +473,7 @@
         <Path>..\src\Action Status\DIO Readback.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7C637757C63FB15D2AF39733E84A2E23</GUID>
+      <GUID>8D6B0A36C1BAF19E5765FC9A8ABC85C6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -648,7 +648,7 @@
         <Path>..\src\Action Status\Cell Enable All.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>36A8D390B510CBA9FFF08EB48BF34E14</GUID>
+      <GUID>C436115697438B198D328E480C349735</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -795,7 +795,7 @@
         <Path>..\src\Configure\Apply CAN Configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>028BF2543AE406CD916E555DEB3ACB04</GUID>
+      <GUID>693F43A663445E8FEBB0D6367DF6BDC8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -858,7 +858,7 @@
         <Path>..\src\Modes\Set CAN Publishing.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BCBF7DF3D9595B95D6AD21540F4744F7</GUID>
+      <GUID>1CB48B7316C7512A6D324B77CAA9415B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
