@@ -173,15 +173,15 @@
 				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">BS120x Driver.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../bs120x-labview-driver outputs/PPL/BS120x Driver.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">BS120x_Driver.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../bs120x-labview-driver outputs/PPL/BS120x_Driver.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../bs120x-labview-driver outputs/PPL</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1C279A72-12CE-4444-A9EF-01678D876FDC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4DC2D549-C0DD-4218-9006-4DC1DC8056B2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/BS120x Driver.lvlib</Property>
@@ -207,7 +207,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 Bloomy Controls</Property>
 				<Property Name="TgtF_productName" Type="Str">BS120x Driver</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{6447371A-7A12-4A2B-B591-1A6043FB9DB5}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">BS120x Driver.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">BS120x_Driver.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Discovery" Type="EXE">
