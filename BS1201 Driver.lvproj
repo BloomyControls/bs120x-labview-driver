@@ -252,6 +252,99 @@
 				<Property Name="TgtF_targetfileName" Type="Str">BS120x Discovery.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
+			<Item Name="BS120x Configuration App" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{28F9B352-3D7C-4BA0-B384-6366A2C3C4D2}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{6167250A-79E5-4679-A998-6C47551359A9}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{18A3866E-9446-482A-81BB-5AC6D1D85877}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">BS120x Configuration App</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../bs120x-labview-driver outputs/Apps/Configuration</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{4B8530D9-F2F3-46BF-ACE8-4E9F9FF75805}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">BS120x Configuration.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../bs120x-labview-driver outputs/Apps/Configuration/BS120x Configuration.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../bs120x-labview-driver outputs/Apps/Configuration/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/BloomyStamp.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4DC2D549-C0DD-4218-9006-4DC1DC8056B2}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples/Bloomy BS120x Configuration Example.vi</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Bloomy Controls</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">BS120x Configuration App</Property>
+				<Property Name="TgtF_internalName" Type="Str">BS120x Configuration App</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 Bloomy Controls</Property>
+				<Property Name="TgtF_productName" Type="Str">BS120x Configuration App</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{C04F227A-B355-456E-BE50-59DDDFFADC1B}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">BS120x Configuration.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="BS120x Execution App" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{744F0D06-1FDD-4197-90EC-C238888B2C79}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{699C4784-D7E0-4EFB-97D5-3D325B571D77}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{1129B75B-410F-4D9C-A5FF-464B3D4D00C9}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">BS120x Execution App</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../bs120x-labview-driver outputs/Apps/Execution</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{E619DB75-4E5E-4C58-ACF4-B29619A8A406}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">BS120x Execution.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../bs120x-labview-driver outputs/Apps/Execution/BS120x Execution.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../bs120x-labview-driver outputs/Apps/Execution/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/BloomyStamp.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4DC2D549-C0DD-4218-9006-4DC1DC8056B2}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples/Bloomy BS120x Configuration Example.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Examples/Bloomy BS120x Operational Example.vi</Property>
+				<Property Name="Source[2].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">Bloomy Controls</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">BS120x Configuration App</Property>
+				<Property Name="TgtF_internalName" Type="Str">BS120x Configuration App</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 Bloomy Controls</Property>
+				<Property Name="TgtF_productName" Type="Str">BS120x Configuration App</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{8BC7DE77-EFF8-4CA6-9D00-1B30EA8D4502}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">BS120x Execution.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 		</Item>
 	</Item>
 </Project>
