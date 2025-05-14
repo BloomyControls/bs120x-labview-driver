@@ -313,7 +313,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E619DB75-4E5E-4C58-ACF4-B29619A8A406}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">BS120x Execution.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../bs120x-labview-driver outputs/Apps/Execution/BS120x Execution.exe</Property>
@@ -337,10 +337,10 @@
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">Bloomy Controls</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">BS120x Configuration App</Property>
-				<Property Name="TgtF_internalName" Type="Str">BS120x Configuration App</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">BS120x Execution App</Property>
+				<Property Name="TgtF_internalName" Type="Str">BS120x Execution App</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 Bloomy Controls</Property>
-				<Property Name="TgtF_productName" Type="Str">BS120x Configuration App</Property>
+				<Property Name="TgtF_productName" Type="Str">BS120x Execution App</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{8BC7DE77-EFF8-4CA6-9D00-1B30EA8D4502}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">BS120x Execution.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
