@@ -17,6 +17,7 @@
 			<Item Name="Bloomy BS120x Operational Example.vi" Type="VI" URL="../examples/Bloomy BS120x Operational Example.vi"/>
 			<Item Name="Bloomy BS120x Configuration Example.vi" Type="VI" URL="../examples/Bloomy BS120x Configuration Example.vi"/>
 			<Item Name="Bloomy BS120x Discovery Example.vi" Type="VI" URL="../examples/Bloomy BS120x Discovery Example.vi"/>
+			<Item Name="Bloomy BS120x Data Logging Example.vi" Type="VI" URL="../examples/Bloomy BS120x Data Logging Example.vi"/>
 		</Item>
 		<Item Name="Public" Type="Folder">
 			<Item Name="Bloomy Battery Simulator 1200 VI Tree.vi" Type="VI" URL="../src/Bloomy Battery Simulator 1200 VI Tree.vi"/>
@@ -167,7 +168,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5912EE7D-2667-4786-8EDC-3C1415C9B95B}</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.build" Type="Int">21</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">BS120x_Driver.lvlibp</Property>
@@ -178,7 +179,7 @@
 				<Property Name="Destination[1].path" Type="Path">../bs120x-labview-driver outputs/PPL</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4DC2D549-C0DD-4218-9006-4DC1DC8056B2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{76610CC8-1BCE-407D-9438-5722EFD88153}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/BS120x Driver.lvlib</Property>
@@ -320,7 +321,7 @@
 				<Property Name="Destination[1].path" Type="Path">../bs120x-labview-driver outputs/Apps/Execution/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/BloomyStamp.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4DC2D549-C0DD-4218-9006-4DC1DC8056B2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{09E7442E-84E9-4516-9694-8B80DEBC1E0F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples/Bloomy BS120x Configuration Example.vi</Property>
@@ -340,6 +341,49 @@
 				<Property Name="TgtF_productName" Type="Str">BS120x Execution App</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{8BC7DE77-EFF8-4CA6-9D00-1B30EA8D4502}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">BS120x Execution.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="BS120x Data Log App" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{BA698960-4F27-4D4D-A2BB-C3A3E85BB10D}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{65527522-DA2E-4E8A-9C62-A9333CA51087}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{378A4638-0047-4F2B-947D-7D0D0B41B07D}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">BS120x Data Log App</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../bs120x-labview-driver outputs/Apps/Data Log</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{513A2426-5B47-4A02-B37A-D44A4AC7946E}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">BS120x Data Log.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../bs120x-labview-driver outputs/Apps/Data Log/BS120x Data Log.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../bs120x-labview-driver outputs/Apps/Data Log/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/BloomyStamp.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{09E7442E-84E9-4516-9694-8B80DEBC1E0F}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples/Bloomy BS120x Data Logging Example.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Bloomy Controls</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">BS120x Data Log App</Property>
+				<Property Name="TgtF_internalName" Type="Str">BS120x Data Log App</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 Bloomy Controls</Property>
+				<Property Name="TgtF_productName" Type="Str">BS120x Data Log App</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{3AE284C5-D2C5-4B97-BBB5-3389AD988E76}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">BS120x Data Log.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
