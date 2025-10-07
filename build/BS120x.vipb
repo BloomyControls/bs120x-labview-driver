@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-03-24 13:19:49" Modified_Date="2025-10-07 12:43:14" Creator="Bloomy" Comments="" ID="0fc8b4bf0a8a180a303ffad87f31ea77">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-03-24 13:19:49" Modified_Date="2025-10-07 13:28:08" Creator="Bloomy" Comments="" ID="398814bab507488ada51e29f59fb8492">
   <Library_General_Settings>
     <Package_File_Name>Bloomy_lib_BS120x</Package_File_Name>
-    <Library_Version>1.0.2.2</Library_Version>
+    <Library_Version>1.0.2.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\..\bs120x-labview-driver outputs\Bloomy BS120x VIP</Library_Output_Folder>
@@ -32,7 +32,9 @@
       <Copyright>Copyright (c) 2024, Bloomy Controls, Inc</Copyright>
       <Packager/>
       <URL>https://www.bloomy.com/battery-simulator-1201</URL>
-      <Release_Notes/>
+      <Release_Notes>Fix Discovery firmware version
+Fix config-only for legacy BS1200s
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -361,7 +363,7 @@
         <Path>..\src\Public\New BS120x Device\Discover.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>43E50B5174A6D70FA0FD83BF0F322CC1</GUID>
+      <GUID>AEB8103B3C2B52D5D189A7F64C1A096F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -382,7 +384,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path/>
       </Synchronization_Info>
-      <GUID>20497789560DD47578A45A93D5E87542</GUID>
+      <GUID>3D9DA9D8B22A2BE2380BAA34FABEE935</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -473,7 +475,7 @@
         <Path>..\src\Action Status\DIO Readback.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FAC4472A1A3C2B448C8A742AF3A86DED</GUID>
+      <GUID>C6238E6A01189ADBC3E3AD3EEA6FAC7B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -648,7 +650,7 @@
         <Path>..\src\Action Status\Cell Enable All.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3960C063A2D514ED04A7125D300D84D1</GUID>
+      <GUID>E649BA52BDE51882A4A5CFFB7CE1847E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -795,7 +797,7 @@
         <Path>..\src\Configure\Apply CAN Configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1D35AC1EC8C2F06DCBB62C06A37421CD</GUID>
+      <GUID>B68C013F2A07BD94E0EF48CE97949434</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -858,7 +860,7 @@
         <Path>..\src\Modes\Set CAN Publishing.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>898D64C63694E1FE898A7BAED87A267C</GUID>
+      <GUID>89B80E24FB9238B49FB7306A8175DBFC</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
